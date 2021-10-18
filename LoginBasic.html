@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Estudiantil 2021</title>
+    <style>
+    	
+
+    	.conteiner{
+    		background-color: #105344;
+    		display:flex;
+    		justify-content:center;
+    		align-items: center;
+    		flex-direction: column;
+    		width: 350px;
+    		height: 310px;
+    		border-radius: 10px;
+    		border: 2px solid black;
+
+    	}
+    	input{
+    		border: 4px solid #CFCFCF;
+    		border-radius: 5px;
+    		margin: 10px 50px;
+    		width: 200px;
+
+
+    	}
+    	input:hover{
+    		border: 3px solid #08A25F;
+    		transition: 0.3s;
+    	}
+    	.title_login{
+    		color: white;
+    		font-size:30px;
+    	}
+    	.title_login:hover{
+    		color:#08A25F ;
+    		transition: 0.4s;
+    	}
+    	.menaaje{
+    		border-color:3px solid #08A25F;
+    	}
+
+    </style>
+</head>
+
+<body>
+    <header>
+       <!--  <h1>School 2021</h1> -->
+    </header>
+    <form action="">
+        
+        <div class="conteiner">
+        	<h1 class="title_login">Registro Estudiantil 2021</h1>
+            <label for="nombre"></label>
+            <input id="nombre" placeholder="Nombre" type="text" name="nombre">
+            <label for="apellidos"></label>
+            <input placeholder="Apellidos" id="Apellidos" name="apellidos" type="text">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <textarea name="Mensaje" id="mensaje" cols="30" rows="10">Escriba su mensaje</textarea>
+            <input type="submit" placeholder="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
